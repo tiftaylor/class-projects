@@ -1,4 +1,4 @@
 # Tif Taylor | Class Projects
 
-- [Candy Project (Udemy)](./udemy_candy/)
-- [Pattern Project (Udemy)](./udemy_pattern/)
+- [Candy Project (Udemy)](https://tiftaylor.github.io/classprojects/udemy_candy/)
+- [Pattern Project (Udemy)](https://tiftaylor.github.io/classprojects/udemy_pattern/)
