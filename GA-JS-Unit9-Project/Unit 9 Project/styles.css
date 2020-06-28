@@ -1,0 +1,114 @@
+/* Goole Fonts Family Info */
+body {
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0px;
+	margin-bottom: 100px;
+}
+
+#title p, #title h1 {
+	margin: 10px;
+}
+
+#review p {
+	font-size: 1.5em;
+	margin: 30px;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  width: 100%;
+}
+
+#top-page {
+	position: relative;
+	text-align: center;
+}
+
+#existingRes {
+	margin: auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 8px 16px;
+}
+
+h2 {
+	text-align: center;
+	margin: 40px 0px;
+	font-size: 3.5em;
+}
+
+h3 {
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.section {
+	width: 1000px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.sub-section {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.section-border {
+	border: 1px solid lightgrey;
+	margin: 40px;
+	padding: 20px;
+}
+
+
+#top-page img {
+	max-width: 100%;
+	max-height: 100%;
+	opacity: 0.5;
+}
+
+
+#map {
+	height: 300px;
+
+}
+
+#map div {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+label, input {
+	display: inline-block;
+	font-size: 1.2em;
+	margin: 5px;
+}
+
+label {
+	width: 70px;
+}
+
+input {
+	width: 220px;
+}
+
+#submit {
+	margin-left: 80px;
+}

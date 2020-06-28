@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Monk's Cafe</title>
+	
+	<!-- connect Google Fonts Link -->
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap" rel="stylesheet">
+	
+	<!-- connect to css file -->
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+<div id="top-page">
+	<img src="toms-restaurant.jpg" alt="Toms Resturant">
+	<div id="title">
+		<h1>Tom's Restaurant</h1>
+		<p>"The Peaople's Place"</p>
+	</div>
+</div>
+<br>
+
+<!-- reservation boxes -->
+<div class="section">	
+	<h2>Reservations</h2>
+	<div class="sub-section">
+		<div class="section-border">
+			<h3>Make a Reservation</h3>
+			<form>
+			  <label for="name">Name</label><input type="text" id="name" name="name">
+			  <br>
+			  <label for="dayOfRes">Day</label><input type="date" id="dayOfRes" name="dayOfRes">
+			  <br>
+			  <input type="submit" id="submit" name="submit" value="Confirm Reservation">
+				<br>
+			</form>
+		</div>		
+	</div>
+
+	<!-- figure out how to append to table -->
+	<div class="sub-section">
+		<div class="section-border">
+			<h3>Existing Reservations</h3>
+			<table id="existingRes">
+				<thead>
+					<th>Name</th>
+					<th>Day</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>jane doe</td>
+						<td>5/30/2020</td>
+					</tr>
+			</tbody>
+			</table>
+			<br>
+		</div>	
+	</div>
+</div>
+
+
+<div>
+	<h2>Come Dine with Us</h2>
+	<div id="map"></div>
+</div>
+
+
+<!-- map and reviews -->
+<div class="section">
+	<h2>Customer Reviews</h2>
+	<div class="sub-section">
+		<img src="jerry.jpg" alt="Friends eating">
+	</div>
+
+	<div id="review" class="sub-section">
+		<div>
+		  <p>"This place is amazing! Not only is the food good but the staff is super funny!" <br> -Jane, WA</p>
+		</div>	
+	</div>
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs&callback=initMap"></script>
+
+</body>
+</html>
